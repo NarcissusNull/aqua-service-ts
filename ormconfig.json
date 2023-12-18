@@ -1,0 +1,24 @@
+{
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  },
+  "entities": [
+    "dist/entity/**/*.js"
+  ],
+  "type": "mysql",
+  "synchronize": true,
+  "migrations": [
+    "dis/migration/**/*.js"
+  ],
+  "password": "narcissus",
+  "username": "root",
+  "host": "localhost",
+  "port": 3306,
+  "subscribers": [
+    "dist/subscriber/**/*.js"
+  ],
+  "logging": false,
+  "database": "test"
+}

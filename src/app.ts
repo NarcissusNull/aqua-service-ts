@@ -1,5 +1,5 @@
-// src/app.ts
-import express, { Request, Response } from 'express';
+import * as express from 'express';
+import  { Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
 
 const app = express();
